@@ -1,0 +1,419 @@
+
+
+Startup execution:
+  loading initial environment
+
+--> i am cool 
+
+Undefined variable: i
+
+--> arr[]={1,2,3}
+arr[]={1,2,3}
+   ^^
+Error: 1.4->1.5 syntax error, unexpected [, expecting end of file
+
+--> a=1
+
+ a = 
+
+   1.
+
+--> a=2
+
+ a = 
+
+   2.
+
+--> a=4
+
+ a = 
+
+   4.
+
+--> u=[1 2 3 ]
+
+ u = [1x3 double]
+
+   1.   2.   3.
+
+--> u = [1 2 3 4]
+
+ u = [1x4 double]
+
+   1.   2.   3.   4.
+
+--> // 4 decimal places 
+
+--> // will get im te frm like decimal places
+
+--> //default ans
+
+--> ans = 
+ans = 
+      ^
+Error: 1.7->1.7 syntax error, unexpected end of file
+
+--> ans = inf 
+
+Undefined variable: inf
+
+--> ans = o/o
+
+Undefined variable: o
+
+--> ans = 1/0
+
+ ans = 
+
+   Inf
+
+--> // will get in the form 4 decimal places 
+
+--> what is ur name 
+
+what: Wrong number of input argument(s): 0 expected.
+
+--> ans =1/2
+
+ ans = 
+
+   0.5
+
+--> ans2=1\2
+
+ ans2 = 
+
+   2.
+
+--> name=Sai
+
+Undefined variable: Sai
+
+--> /==>divisiona/b form
+/==>divisiona/b form
+^^
+Error: 1.1->1.2 syntax error, unexpected /
+
+--> //\==>division in b/a form
+
+--> 0/0
+
+ ans = 
+
+   Nan
+
+--> u = 
+u = 
+    ^
+Error: 1.5->1.5 syntax error, unexpected end of file
+
+--> u=[1 2 3 4 
+  >    5 6 7 8]
+
+ u = [2x4 double]
+
+   1.   2.   3.   4.
+   5.   6.   7.   8.
+
+--> b=[4 5 6 7
+  > b=[4 5 6 7];
+  > 
+  > 
+  > //:==>not run but just store value in given variable
+  > 
+  > u=[4 5 6 7];
+  > n=[1 2 3];
+  > 
+
+--> 
+
+--> 
+
+--> 
+
+--> 
+
+--> 
+
+--> 
+
+--> 
+
+--> k=[1 2 3 4];
+
+--> k+n
+
+Undefined variable: n
+
+--> n=[ 1 2 3];
+
+--> k+n
+
+Operator +: Wrong dimensions for operation [1x4] + [1x3], same dimensions expected.
+
+--> n=[1 2 3 4];
+
+--> k+n
+
+ ans = [1x4 double]
+
+   2.   4.   6.   8.
+
+--> k-n
+
+ ans = [1x4 double]
+
+   0.   0.   0.   0.
+
+--> k+n
+
+ ans = [1x4 double]
+
+   2.   4.   6.   8.
+
+--> k*n
+
+Operator *: Wrong dimensions for operation [1x4] * [1x4].
+
+--> k.*n
+
+ ans = [1x4 double]
+
+   1.   4.   9.   16.
+
+--> //we have to use dot(.) before mul(*) sign for multiplication
+
+--> k./l
+
+Undefined variable: l
+
+--> k./n
+
+ ans = [1x4 double]
+
+   1.   1.   1.   1.
+
+--> //need to use (.)before /
+
+--> k^5
+at line    20 of function %s_pow ( C:\Program Files\scilab-2026.1.0\modules\overloading\macros\%s_pow.sci line 32 )
+at line     3 of function %s_p_s ( C:\Program Files\scilab-2026.1.0\modules\overloading\macros\%s_p_s.sci line 15 )
+
+%s_pow: Wrong size for input argument #1: Square matrix expected.
+--> //for power need sqare metrix
+
+--> z=[1 2
+  > 3 4]
+
+ z = [2x2 double]
+
+   1.   2.
+   3.   4.
+
+--> z^2
+
+ ans = [2x2 double]
+
+   7.    10.
+   15.   22.
+
+--> z=z.*z
+
+ z = [2x2 double]
+
+   1.   4. 
+   9.   16.
+
+--> a=1+%i
+
+ a = 
+
+   1. + i  
+
+--> b=2+3*%i
+
+ b = 
+
+   2. + 3.i
+
+--> a+b
+
+ ans = 
+
+   3. + 4.i
+
+--> a-b
+
+ ans = 
+
+  -1. - 2.i
+
+--> a*b
+
+ ans = 
+
+  -1. + 5.i
+
+--> a=[1.5 2 2+%i]
+
+ a = [1x3 double]
+
+   1.5 + 0.i   2. + 0.i   2. + i  
+
+--> b=[1+%i 3.5 7]
+
+ b = [1x3 double]
+
+   1. + i     3.5 + 0.i   7. + 0.i
+
+--> a+b
+
+ ans = [1x3 double]
+
+   2.5 + i     5.5 + 0.i   9. + i  
+
+--> a-b
+
+ ans = [1x3 double]
+
+   0.5 - i    -1.5 + 0.i  -5. + i  
+
+--> //dot(.) before multiplication is for matrrix only not for singular elements
+
+--> //Increment & decrement fn
+
+--> 1:10
+
+ ans = [1x10 double]
+
+   1.   2.   3.   4.   5.   6.   7.   8.   9.   10.
+
+--> 1:20
+
+ ans = [1x20 double]
+
+         column 1 to 16
+
+   1.   2.   3.   4.   5.   6.   7.   8.   9.   10.   11.   12.   13.   14.   15.   16.
+
+         column 17 to 20
+
+   17.   18.   19.   20.
+
+--> //defult increment is by 1 
+
+--> 1:0.1:10
+
+ ans = [1x91 double]
+
+         column 1 to 15
+
+   1.   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.   2.1   2.2   2.3   2.4
+
+         column 16 to 30
+
+   2.5   2.6   2.7   2.8   2.9   3.   3.1   3.2   3.3   3.4   3.5   3.6   3.7   3.8   3.9
+
+         column 31 to 45
+
+   4.   4.1   4.2   4.3   4.4   4.5   4.6   4.7   4.8   4.9   5.   5.1   5.2   5.3   5.4
+
+         column 46 to 60
+
+   5.5   5.6   5.7   5.8   5.9   6.   6.1   6.2   6.3   6.4   6.5   6.6   6.7   6.8   6.9
+
+         column 61 to 75
+
+   7.   7.1   7.2   7.3   7.4   7.5   7.6   7.7   7.8   7.9   8.   8.1   8.2   8.3   8.4
+
+         column 76 to 90
+
+   8.5   8.6   8.7   8.8   8.9   9.   9.1   9.2   9.3   9.4   9.5   9.6   9.7   9.8   9.9
+
+         column 91
+
+   10.
+
+--> //starting point : increment : end point
+
+--> //use minus sign for decrement
+
+--> 10:-1:1
+
+ ans = [1x10 double]
+
+   10.   9.   8.   7.   6.   5.   4.   3.   2.   1.
+
+--> //plotting curves 
+
+--> x=0:0.01:1;
+
+--> y=sin(x)
+
+ y = [1x101 double]
+
+         column 1 to 8
+
+   0.   0.0099998   0.0199987   0.0299955   0.0399893   0.0499792   0.059964   0.0699428
+
+         column 9 to 15
+
+   0.0799147   0.0898785   0.0998334   0.1097783   0.1197122   0.1296341   0.1395431
+
+         column 16 to 22
+
+   0.1494381   0.1593182   0.1691823   0.1790296   0.1888589   0.1986693   0.2084599
+
+         column 23 to 29
+
+   0.2182296   0.2279775   0.2377026   0.247404   0.2570806   0.2667314   0.2763556
+
+         column 30 to 36
+
+   0.2859522   0.2955202   0.3050586   0.3145666   0.324043   0.3334871   0.3428978
+
+         column 37 to 43
+
+   0.3522742   0.3616154   0.3709205   0.3801884   0.3894183   0.3986093   0.4077605
+
+         column 44 to 50
+
+   0.4168708   0.4259395   0.4349655   0.4439481   0.4528863   0.4617792   0.4706259
+
+         column 51 to 57
+
+   0.4794255   0.4881772   0.4968801   0.5055333   0.514136   0.5226872   0.5311862
+
+         column 58 to 64
+
+   0.539632   0.5480239   0.556361   0.5646425   0.5728675   0.5810352   0.5891448
+
+         column 65 to 71
+
+   0.5971954   0.6051864   0.6131169   0.620986   0.628793   0.6365372   0.6442177
+
+         column 72 to 78
+
+   0.6518338   0.6593847   0.6668696   0.6742879   0.6816388   0.6889214   0.6961352
+
+         column 79 to 85
+
+   0.7032794   0.7103533   0.7173561   0.7242872   0.7311458   0.7379314   0.7446431
+
+         column 86 to 92
+
+   0.7512804   0.7578426   0.7643289   0.7707389   0.7770717   0.7833269   0.7895037
+
+         column 93 to 99
+
+   0.7956016   0.8016199   0.8075581   0.8134155   0.8191916   0.8248857   0.8304974
+
+         column 100 to 101
+
+   0.836026   0.841471
+
+--> plot(x,y)
+
+--> //plot graph
+
+--> //go to ? ->scilab help for more plot options
